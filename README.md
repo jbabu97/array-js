@@ -1,5 +1,5 @@
 
-- [Array-js](#array)
+- [Array-js](#ArrayDeclaraton)
   - [ArrayDeclaraton](#ArrayDeclaraton)
 - [MethodsofArray](#MethodsofArray)
   - [PushPop](#PushPop)
