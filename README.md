@@ -65,7 +65,7 @@ const bowler = ['Fizz', 'Miraz', 'Taskin', 'Shoriful'];
 const fullTeam = batter.concat(bowler);
 const fullTeam = [...batter, ...bowler];
 
-// console.log(fullTeam);
+// console.log(fullTeam);  // ['Shakib', 'Tamim', 'Mushfiq', 'Mahmudullah', 'Liton', 'Fizz', 'Miraz', 'Taskin', 'Shoriful']
 ```
 ## Flat
 
@@ -89,18 +89,18 @@ let total = 0;
 const addRanNum = ranNum.map(num => 
     total += num 
  );
-console.log(addRanNum);
-console.log(total);
+console.log(addRanNum); // [ 2, 6, 13, 22 ]
+console.log(total); // 22
 
 const multiRanNum = ranNum.map(num => num * num);
-console.log(multiRanNum);
+console.log(multiRanNum); //[ 4, 16, 49, 81 ]
 ```
 ## Filter
 ```js
 const filterArr = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 
 const fitteredArr = filterArr.filter(num => num > 8);
-console.log(fitteredArr);
+console.log(fitteredArr); // [ 9, 10, 11, 12, 13 ]
 
 ```
 ## ArrayOf
@@ -112,7 +112,7 @@ const score3 = 999;
 const score4 = 9999;
 
 const createArr = Array.of(score1,score2, score3, score4);
-console.log(createArr);
+console.log(createArr);  // [ 9, 99, 999, 9999 ]
 
 ```
 
