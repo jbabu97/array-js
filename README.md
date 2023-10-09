@@ -1,5 +1,5 @@
 
-- [array](#array)
+- [Array-js](#array)
   - [ArrayDeclaraton](#ArrayDeclaraton)
 - [MethodsofArray](#MethodsofArray)
   - [PushPop](#PushPop)
@@ -11,7 +11,6 @@
   - [Filter](#Filter)
   - [ArrayOf](#ArrayOf)
 
-### array-js
 
 ### ArrayDeclaration
 
