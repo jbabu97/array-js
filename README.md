@@ -103,7 +103,7 @@ console.log(fitteredArr);
 ```
 ## ArrayOf
 
-```ja
+```js
 const score1 = 9;
 const score2 = 99;
 const score3 = 999;
